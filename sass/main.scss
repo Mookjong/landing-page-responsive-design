@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;900&family=Roboto:wght@100;300;400;500&display=swap');
 
 $clr-primary-200: #f3eed9;
 $clr-primary-400: #824936;
@@ -16,3 +16,52 @@ $ff-accent: 'Playfair Display', serif;
     padding: 0;
 }
 
+@mixin title-color {
+    h2{
+        color: $clr-primary-200;
+    }
+}
+
+img{
+    width: 30rem;
+}
+
+body{
+    font-family: $ff-primary;
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+}
+
+section{
+    padding: 3rem 0;
+
+    .container{
+        margin-inline: auto;
+        width: min(90%, 70.5rem);
+    }
+}
+
+h1, h2, h3{
+    line-height: 1;
+    font-family: $ff-accent;
+    font-weight: 900;
+}
+
+.bg-light{ 
+    background-color: $clr-primary-200;
+}
+
+.bg-dark{ 
+    background-color: $clr-neutral-900;
+    color: $clr-neutral-100;
+
+    @include title-color();
+}
+
+.bg-primary{ 
+    background-color: $clr-primary-400;
+    color: $clr-neutral-100;
+
+    @include title-color();
+}
