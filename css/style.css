@@ -6,7 +6,8 @@
 }
 
 img {
-  width: 30rem;
+  max-width: 100%;
+  display: block;
 }
 
 body {
@@ -14,6 +15,27 @@ body {
   font-weight: 400;
   font-size: 1.3125rem;
   line-height: 1.6;
+}
+
+.text-center {
+  text-align: center;
+}
+
+section, header {
+  padding: 4rem 0;
+}
+
+.container {
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+}
+.container--narrow {
+  max-width: 34rem;
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
 }
 
 section {
@@ -25,9 +47,14 @@ section .container {
 }
 
 h1, h2, h3 {
+  color: #824936;
   line-height: 1;
   font-family: "Playfair Display", serif;
   font-weight: 900;
+}
+
+h2, h3, p {
+  margin-bottom: 1em;
 }
 
 .bg-light {
@@ -48,6 +75,26 @@ h1, h2, h3 {
 }
 .bg-primary h2 {
   color: #f3eed9;
+}
+
+@media screen and (min-width: 40em) {
+  section, header {
+    padding: 7rem 0;
+  }
+
+  .text-justify {
+    text-align: justify;
+  }
+
+  .split {
+    flex-direction: row;
+  }
+  .split > * {
+    flex-basis: 100%;
+  }
+  .split > * + * {
+    margin-left: 2em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
