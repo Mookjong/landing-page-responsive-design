@@ -44,7 +44,7 @@ body{
 // }
 
 section, header{
-    padding: 3rem 0;
+    padding: 4rem 0;
 }
 
 .container{
@@ -54,6 +54,11 @@ section, header{
     &--narrow{
         max-width: 34rem;
     }
+}
+
+.split{
+    display: flex;
+    flex-direction: column;
 }
 
 section{
@@ -92,4 +97,28 @@ h2, h3, p{
     color: $clr-neutral-100;
 
     @include h2-color();
+}
+
+
+@media screen and (min-width: 40em) {
+    section, header{
+        padding: 7rem 0;
+    }
+
+    .text-justify{
+        text-align: justify;
+    }
+
+    .split{
+        flex-direction: row;
+
+        & > *{
+            flex-basis: 100%;
+
+            & + *{
+                margin-left: 2em;
+            }
+        }
+    }
+    
 }

@@ -22,7 +22,7 @@ body {
 }
 
 section, header {
-  padding: 3rem 0;
+  padding: 4rem 0;
 }
 
 .container {
@@ -31,6 +31,11 @@ section, header {
 }
 .container--narrow {
   max-width: 34rem;
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
 }
 
 section {
@@ -70,6 +75,26 @@ h2, h3, p {
 }
 .bg-primary h2 {
   color: #f3eed9;
+}
+
+@media screen and (min-width: 55em) {
+  section, header {
+    padding: 7rem 0;
+  }
+
+  .text-justify {
+    text-align: justify;
+  }
+
+  .split {
+    flex-direction: row;
+  }
+  .split > * {
+    flex-basis: 100%;
+  }
+  .split > * + * {
+    margin-left: 2em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
