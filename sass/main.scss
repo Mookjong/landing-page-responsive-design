@@ -16,16 +16,24 @@ $ff-accent: 'Playfair Display', serif;
     padding: 0;
 }
 
+<<<<<<< HEAD
 @mixin h2-color {
+=======
+@mixin title-color {
+>>>>>>> 260beff6215460044b5ce89e911473c80e42a39e
     h2{
         color: $clr-primary-200;
     }
 }
 
 img{
+<<<<<<< HEAD
     max-width: 100%;
     // width: 75%;
     display: block;
+=======
+    width: 15rem;
+>>>>>>> 260beff6215460044b5ce89e911473c80e42a39e
 }
 
 body{
@@ -33,6 +41,7 @@ body{
     font-weight: 400;
     font-size: 1.3125rem;
     line-height: 1.6;
+<<<<<<< HEAD
     overflow: auto;
 }
 
@@ -54,20 +63,36 @@ section, header{
 
     &--narrow{
         max-width: 34rem;
+=======
+}
+
+section{
+    padding: 3rem 0;
+
+    .container{
+        margin-inline: auto;
+        width: min(90%, 70.5rem);
+>>>>>>> 260beff6215460044b5ce89e911473c80e42a39e
     }
 }
 
 h1, h2, h3{
+<<<<<<< HEAD
     color: $clr-primary-400;
+=======
+>>>>>>> 260beff6215460044b5ce89e911473c80e42a39e
     line-height: 1;
     font-family: $ff-accent;
     font-weight: 900;
 }
 
+<<<<<<< HEAD
 h2, h3, p{
     margin-bottom: 1em;
 }
 
+=======
+>>>>>>> 260beff6215460044b5ce89e911473c80e42a39e
 .bg-light{ 
     background-color: $clr-primary-200;
 }
@@ -76,12 +101,20 @@ h2, h3, p{
     background-color: $clr-neutral-900;
     color: $clr-neutral-100;
 
+<<<<<<< HEAD
     @include h2-color();
+=======
+    @include title-color();
+>>>>>>> 260beff6215460044b5ce89e911473c80e42a39e
 }
 
 .bg-primary{ 
     background-color: $clr-primary-400;
     color: $clr-neutral-100;
 
+<<<<<<< HEAD
     @include h2-color();
+=======
+    @include title-color();
+>>>>>>> 260beff6215460044b5ce89e911473c80e42a39e
 }
