@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":["../sass/main.scss"],"names":[],"mappings":"AAAQ;AAYR;EACI;EACA;EACA;;;AASJ;EACI;EAEA;;;AAGJ;EACI,aAvBS;EAwBT;EACA;EACA;EACA;;;AAGJ;EACI;;;AAOJ;EACI;;;AAGJ;EACI;EACA;;AAEA;EACI;;;AAIR;EACI,OAzDc;EA0Dd;EACA,aArDQ;EAsDR;;;AAGJ;EACI;;;AAGJ;EACI,kBArEc;;;AAwElB;EACI,kBArEc;EAsEd,OAvEc;;AAcd;EACI,OAlBU;;;AA+ElB;EACI,kBA/Ec;EAgFd,OA9Ec;;AAcd;EACI,OAlBU","file":"style.css"}
-=======
-{"version":3,"sourceRoot":"","sources":["../sass/main.scss"],"names":[],"mappings":"AAAQ;AAYR;EACI;EACA;EACA;;;AASJ;EACI;;;AAGJ;EACI,aArBS;EAsBT;EACA;EACA;;;AAGJ;EACI;;AAEA;EACI;EACA;;;AAIR;EACI;EACA,aArCQ;EAsCR;;;AAGJ;EACI,kBAjDc;;;AAoDlB;EACI,kBAjDc;EAkDd,OAnDc;;AAcd;EACI,OAlBU;;;AA2DlB;EACI,kBA3Dc;EA4Dd,OA1Dc;;AAcd;EACI,OAlBU","file":"style.css"}
->>>>>>> 260beff6215460044b5ce89e911473c80e42a39e
+{"version":3,"sourceRoot":"","sources":["../sass/main.scss"],"names":[],"mappings":"AAAQ;AAYR;EACI;EACA;EACA;;;AASJ;EACI;EAEA;;;AAGJ;EACI,aAvBS;EAwBT;EACA;EACA;;;AAGJ;EACI;;;AAOJ;EACI;;;AAGJ;EACI;EACA;;AAEA;EACI;;;AAIR;EACI;;AAEA;EACI;EACA;;;AAIR;EACI,OAjEc;EAkEd;EACA,aA7DQ;EA8DR;;;AAGJ;EACI;;;AAGJ;EACI,kBA7Ec;;;AAgFlB;EACI,kBA7Ec;EA8Ed,OA/Ec;;AAcd;EACI,OAlBU;;;AAuFlB;EACI,kBAvFc;EAwFd,OAtFc;;AAcd;EACI,OAlBU","file":"style.css"}

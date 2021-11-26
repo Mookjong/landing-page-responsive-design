@@ -6,12 +6,8 @@
 }
 
 img {
-<<<<<<< HEAD
   max-width: 100%;
   display: block;
-=======
-  width: 15rem;
->>>>>>> 260beff6215460044b5ce89e911473c80e42a39e
 }
 
 body {
@@ -19,8 +15,6 @@ body {
   font-weight: 400;
   font-size: 1.3125rem;
   line-height: 1.6;
-<<<<<<< HEAD
-  overflow: auto;
 }
 
 .text-center {
@@ -39,11 +33,6 @@ section, header {
   max-width: 34rem;
 }
 
-h1, h2, h3 {
-  color: #824936;
-=======
-}
-
 section {
   padding: 3rem 0;
 }
@@ -53,19 +42,16 @@ section .container {
 }
 
 h1, h2, h3 {
->>>>>>> 260beff6215460044b5ce89e911473c80e42a39e
+  color: #824936;
   line-height: 1;
   font-family: "Playfair Display", serif;
   font-weight: 900;
 }
 
-<<<<<<< HEAD
 h2, h3, p {
   margin-bottom: 1em;
 }
 
-=======
->>>>>>> 260beff6215460044b5ce89e911473c80e42a39e
 .bg-light {
   background-color: #f3eed9;
 }
