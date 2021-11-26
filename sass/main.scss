@@ -16,14 +16,16 @@ $ff-accent: 'Playfair Display', serif;
     padding: 0;
 }
 
-@mixin title-color {
+@mixin h2-color {
     h2{
         color: $clr-primary-200;
     }
 }
 
 img{
-    width: 30rem;
+    max-width: 100%;
+    // width: 75%;
+    display: block;
 }
 
 body{
@@ -31,21 +33,39 @@ body{
     font-weight: 400;
     font-size: 1.3125rem;
     line-height: 1.6;
+    overflow: auto;
 }
 
-section{
-    padding: 3rem 0;
+.text-center{
+    text-align: center;
+}
 
-    .container{
-        margin-inline: auto;
-        width: min(90%, 70.5rem);
+// .text-justify{
+//     text-align: justify;
+// }
+
+section, header{
+    padding: 3rem 0;
+}
+
+.container{
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+
+    &--narrow{
+        max-width: 34rem;
     }
 }
 
 h1, h2, h3{
+    color: $clr-primary-400;
     line-height: 1;
     font-family: $ff-accent;
     font-weight: 900;
+}
+
+h2, h3, p{
+    margin-bottom: 1em;
 }
 
 .bg-light{ 
@@ -56,12 +76,12 @@ h1, h2, h3{
     background-color: $clr-neutral-900;
     color: $clr-neutral-100;
 
-    @include title-color();
+    @include h2-color();
 }
 
 .bg-primary{ 
     background-color: $clr-primary-400;
     color: $clr-neutral-100;
 
-    @include title-color();
+    @include h2-color();
 }

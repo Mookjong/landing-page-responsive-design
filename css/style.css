@@ -6,7 +6,8 @@
 }
 
 img {
-  width: 30rem;
+  max-width: 100%;
+  display: block;
 }
 
 body {
@@ -14,20 +15,34 @@ body {
   font-weight: 400;
   font-size: 1.3125rem;
   line-height: 1.6;
+  overflow: auto;
 }
 
-section {
+.text-center {
+  text-align: center;
+}
+
+section, header {
   padding: 3rem 0;
 }
-section .container {
+
+.container {
   margin-inline: auto;
   width: min(90%, 70.5rem);
 }
+.container--narrow {
+  max-width: 34rem;
+}
 
 h1, h2, h3 {
+  color: #824936;
   line-height: 1;
   font-family: "Playfair Display", serif;
   font-weight: 900;
+}
+
+h2, h3, p {
+  margin-bottom: 1em;
 }
 
 .bg-light {
