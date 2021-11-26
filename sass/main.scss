@@ -33,7 +33,6 @@ body{
     font-weight: 400;
     font-size: 1.3125rem;
     line-height: 1.6;
-    overflow: auto;
 }
 
 .text-center{
@@ -45,7 +44,7 @@ body{
 // }
 
 section, header{
-    padding: 3rem 0;
+    padding: 4rem 0;
 }
 
 .container{
@@ -54,6 +53,20 @@ section, header{
 
     &--narrow{
         max-width: 34rem;
+    }
+}
+
+.split{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    padding: 4rem 0;
+
+    .container{
+        margin-inline: auto;
+        width: min(90%, 70.5rem);
     }
 }
 
@@ -84,4 +97,28 @@ h2, h3, p{
     color: $clr-neutral-100;
 
     @include h2-color();
+}
+
+
+@media screen and (min-width: 55em) {
+    section, header{
+        padding: 7rem 0;
+    }
+
+    .text-justify{
+        text-align: justify;
+    }
+
+    .split{
+        flex-direction: row;
+
+        & > *{
+            flex-basis: 100%;
+
+            & + *{
+                margin-left: 2em;
+            }
+        }
+    }
+    
 }
