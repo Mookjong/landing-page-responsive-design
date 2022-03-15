@@ -45,6 +45,9 @@ section .container {
   margin-inline: auto;
   width: min(90%, 70.5rem);
 }
+section:nth-child(4) h2 {
+  margin-top: 0.5em;
+}
 
 h1, h2, h3 {
   color: #824936;
